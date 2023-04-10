@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+  <style>
+    li {
+      list-style: none;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <nav class="navbar">
+
+    <a href="#" class="navbar-brand">
+      <img src="logo.svg" alt="..." style="height: 3.4rem;">
+    </a>
+
+    <span class="navbar-text ml-5">
+      <span class="badge text-monospace">To-Do App</span>
+    </span>
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a href="/" class="nav-link">App</a>
+      </li>
+
+    </ul>
+  </nav>
+  <div class="card">
+    <form id="task-form" class="w-400 mw-full">
+
+      <div class="form-group">
+        <label for="full-name" class="required">Enter Task</label>
+        <input type="text" class="form-control" id="task-input" placeholder="Enter Task..." required="required">
+      </div>
+
+
+
+      <button class="btn btn-primary" type="submit">Add Task</button>
+    </form>
+  </div>
+
+  <div id="task-container">
+
+  </div>
+
+  <div class="text-center">
+    <p>Project By Vinay Chaudhary</p>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+
+</body>
+
+</html>
